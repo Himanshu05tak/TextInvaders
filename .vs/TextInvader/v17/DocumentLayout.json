@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PersonalWorks\\C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|solutionrelative:TextInvader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|solutionrelative:TextInvader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|solutionrelative:CursesUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5CF4EF9-9ACD-4C8F-A17E-B83EFB36FCCE}|TextInvader.vcxproj|solutionrelative:CursesUtils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CursesUtils.cpp",
+              "DocumentMoniker": "D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.cpp",
+              "RelativeDocumentMoniker": "CursesUtils.cpp",
+              "ToolTip": "D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.cpp",
+              "RelativeToolTip": "CursesUtils.cpp",
+              "ViewState": "AQIAAC8AAAAAAAAAAADgv0QAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-19T13:31:02.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursesUtils.h",
+              "DocumentMoniker": "D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.h",
+              "RelativeDocumentMoniker": "CursesUtils.h",
+              "ToolTip": "D:\\PersonalWorks\\C\u002B\u002B\\CursesUtils.h",
+              "RelativeToolTip": "CursesUtils.h",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowB8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-19T13:31:04.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TextInvader.h",
+              "DocumentMoniker": "D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.h",
+              "RelativeDocumentMoniker": "TextInvader.h",
+              "ToolTip": "D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.h",
+              "RelativeToolTip": "TextInvader.h",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-19T12:39:52.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TextInvader.cpp",
+              "DocumentMoniker": "D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.cpp",
+              "RelativeDocumentMoniker": "TextInvader.cpp",
+              "ToolTip": "D:\\PersonalWorks\\C\u002B\u002B\\TextInvader.cpp",
+              "RelativeToolTip": "TextInvader.cpp",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAwwF4BAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-10T17:59:42.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

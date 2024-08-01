@@ -1,0 +1,7 @@
+﻿  TextInvader.cpp
+D:\PersonalWorks\C++\TextInvader.cpp(728,44): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\PersonalWorks\C++\TextInvader.cpp(922,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\PersonalWorks\C++\TextInvader.cpp(923,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\PersonalWorks\C++\TextInvader.cpp(1076,23): warning C4018: '<': signed/unsigned mismatch
+D:\PersonalWorks\C++\TextInvader.cpp(1091,27): warning C4018: '<': signed/unsigned mismatch
+  TextInvader.vcxproj -> D:\PersonalWorks\C++\Debug\TextInvader.exe

@@ -1,0 +1,126 @@
+--------------------------------------------------------------------Space Invaders---------------------------------------------------------------------- 
+
+																	Top-Down Design
+- Missile
+
+- High Score
+- Invaders
+	- 5 Rows
+	- Each Rows has 11 Invaders
+	- 2 Bottom rows get 10 Points for each large invader
+	- 2 Middle rows get 20 Points for each medium invader
+	- 1 Top rows get 30 Points for each small invader
+	- Travels sideways and drop by 1 line
+	- On Level - 1 
+		- In order to invade they has to be drop down until 11 lines
+	- On Level - 2 
+		- In order to invade they has to be drop down until 9 lines progressively
+	- Screen 10 
+		- The game reverts to the screen 1 start position and the cycle begins again.
+- GamePlay Rule/Regulations
+		- No time limit
+		- If Invaders reach at the bottom then Game over
+		- The more invadres got shot by players the faster the remaining invaders move
+		- The invaders are low enough to touch the base shelter they disappear as they pass
+		- The last invader moves shiftly
+		- Bombs dropped by an invader on the row above 'invasion' row will not harm the player's missile
+		- Aliens can have maximum 3 bombs on screen at any one time.
+		- The player can have only 1 missile shot on screen at any one time
+		- Player get hit
+			- Game should be Pause and should be showing exploding animation
+		- Aliens get hit
+			- They should explode for a short period of time then disappear
+		- Screen
+			- Intro or Intial Welcome Screen
+				- High Score table
+			- gameOver (Where the player can enter their name within 3 letter)
+			- High Score
+
+- Screen Width 990 total
+- Mystery Spaceships
+	- 50 - 200 Points
+	- Fly from one side to another
+	- Dramatically increased score by destruction
+- Temporary Shields
+	- 4 base shields
+	- Destructable
+	- Player and Alien can have it
+	- Shield has HP
+	- can be destroyed by Missile and Bomb
+- Aliens 
+	- Bomb
+
+- Structure
+	- Player is 2 by 5
+	- Alien UFO is 2 by 6
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+General Data:
+--------------
+- Player
+- Aliens
+- Shields
+- Alien boombs
+- Player Missile
+- Game State
+- Scores
+- High Score Table
+
+Player
+----------
+	- Position
+	- Missile
+	- Animation State
+	- Size of the sprite
+	- Lives (3)
+	- Score
+
+Shields
+--------
+	- Sprite - The Sprite can change
+	- Position
+	- HP
+
+Aliens Swarm (All the 10, 20 and 30 Point alines)
+--------------------------------------------------
+	- Position
+	- Direction (left or right)
+	- Animation State
+	- Size of each alien
+	- State -> Alive, Dead and Exploding
+	- Alien bombs
+
+Alien UFO
+----------
+	- Size
+	- Position
+	- Points
+
+Position
+---------
+	- x, y Coordinate
+
+Alien Bomb 
+----------
+	- Position 
+	- Animation State - \ | / -
+
+Missile (Sprite - |)
+--------------------
+	- Position
+
+Game
+-----
+	- Game State
+	- Level
+	- size of the window
+
+Score
+------
+	- Score value
+	- name
+
+High Score table
+----------------
+vector of scores

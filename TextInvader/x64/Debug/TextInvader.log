@@ -1,0 +1,17 @@
+﻿CursesUtils.obj : error LNK2019: unresolved external symbol clear referenced in function "void __cdecl ClearScreen(void)" (?ClearScreen@@YAXXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol curs_set referenced in function "void __cdecl InitializeCurses(bool)" (?InitializeCurses@@YAX_N@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol endwin referenced in function "void __cdecl StutdownCurses(void)" (?StutdownCurses@@YAXXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol initscr referenced in function "void __cdecl InitializeCurses(bool)" (?InitializeCurses@@YAX_N@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol keypad referenced in function "void __cdecl InitializeCurses(bool)" (?InitializeCurses@@YAX_N@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol move referenced in function "void __cdecl MoveCursor(int,int)" (?MoveCursor@@YAXHH@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol mvaddch referenced in function "void __cdecl DrawCharacter(int,int,char)" (?DrawCharacter@@YAXHHD@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol mvprintw referenced in function "void __cdecl DrawSprite(int,int,char const * * const,int,int)" (?DrawSprite@@YAXHHQEAPEBDHH@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol nodelay referenced in function "void __cdecl InitializeCurses(bool)" (?InitializeCurses@@YAX_N@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol noecho referenced in function "void __cdecl InitializeCurses(bool)" (?InitializeCurses@@YAX_N@Z)
+CursesUtils.obj : error LNK2019: unresolved external symbol refresh referenced in function "void __cdecl RefreshScreen(void)" (?RefreshScreen@@YAXXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol wgetch referenced in function "int __cdecl GetChar(void)" (?GetChar@@YAHXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol __imp_LINES referenced in function "int __cdecl ScreenHeight(void)" (?ScreenHeight@@YAHXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol __imp_COLS referenced in function "int __cdecl ScreenWidth(void)" (?ScreenWidth@@YAHXZ)
+CursesUtils.obj : error LNK2019: unresolved external symbol __imp_stdscr referenced in function "int __cdecl GetChar(void)" (?GetChar@@YAHXZ)
+D:\PersonalWorks\C++\Dependencies\Curses\lib\pdcurses.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\PersonalWorks\C++\x64\Debug\TextInvader.exe : fatal error LNK1120: 15 unresolved externals
